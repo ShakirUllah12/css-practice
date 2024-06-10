@@ -1,0 +1,274 @@
+/* universal selector */
+/* *{
+    color: brown;
+} */
+/*  single type selector */
+/* h1{
+    color: red;
+} */
+/* multiple select */
+/* h1,p,h3{
+    color: red;
+} */
+/* class selector */
+/* .shakir{
+    color: red;
+} */
+/* id selector */
+/* #shakir{
+    color: blue;
+} */
+/* child selector */
+/* span> h1{
+    color: red;
+}
+div> p{
+    color: brown;
+} */
+/* diesentdent selector */
+/* div div h2{
+    color: red;
+} */
+/* adjacent selector */
+/* h1+h2{
+    color: red;
+} */
+/* general sibling selector */
+/* h1~p{
+    color: red;
+} */
+/* last rule */
+/* p{
+    color: red;
+}
+p{
+    color: gainsboro;
+}
+p{
+    color: black;
+} */
+/* specapacity */
+/* *{
+    color: firebrick;
+}
+
+p{
+    color: green;
+}
+p#shakir{
+    color: blue;
+} */
+/* important concept */
+/* h1{
+    color: red !important;
+    
+}
+h2{
+    color: aqua;
+}
+p{ 
+    color: brown !important;
+} */
+/* inheratance */
+/* div{
+    color: red;
+}
+p{
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+/* color in css */
+/* h1{
+    color: red;
+}
+h2{
+    color: aqua;
+}
+h3{
+    color: brown;
+} */
+/* background coior */
+/* h1{
+    background-color: red;
+}
+body{
+    background-color: aqua;
+    opacity: 0.7;
+}
+p{
+    background-color: gray;
+    opacity: 0.5;
+} */
+/* h1{
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    font-family: ' ', ' Narrow', Arial, sans-serif;
+} */
+/* font size */
+/* pexels */
+/* p{
+    font-size: 30px;
+} */
+/* percentage */
+/* p{
+    font-size: 300%;
+} */
+/* defalt size i paragraph */
+/* p{
+    font-size: xx-large;
+} */
+/* e m  */
+/* P{
+    font-size: 3em;
+} */
+/* font face */
+/* p{ */
+    /* @font-face {
+        font-family: test;
+        src: url(.shakir);
+    }
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+} */
+/* font waight */
+/* p{
+    font-weight: 900;
+} */
+/* font style */
+/* h1{
+    font-style: oblique;
+}
+h1{
+    font-style: calc();
+} */
+/* text transformation */
+h1{
+    text-transform: capitalize;
+    /* capital in  first word */
+}
+h1{
+    text-transform: lowercase;
+    /* all word are small */
+}
+h1{
+    text-transform: uppercase;
+    /* all word is caPITal */
+}
+/* text decoration */
+/* #none{
+    text-decoration: none;
+}
+#overline{
+    text-decoration: overline;
+}
+#underline{
+    text-decoration: underline;
+}
+#linetrough{
+    text-decoration: underline;
+} */
+/* lin height */
+/* h1{
+    line-height: 30px;
+}
+h2{
+    line-height: 20px;
+}
+h3{
+    line-height: 60px;
+}
+h4{
+    line-height: 70px;
+}
+h5{
+    line-height: 80px;
+} */
+/* word spacing */
+/* h1{
+    word-spacing: 50px;
+} */
+/* h1{
+    letter-spacing: 20px;
+} */
+/* text align/ */
+/* h1{
+    text-align: justify;
+} */
+/* h1{
+    text-align: center;
+} */
+/* h1{
+    text-align: right;
+} */
+/* h1{
+    text-align: left;
+} */
+/* vertical alignment */
+/* img{
+    vertical-align: text-top;
+} */
+/* img{
+    vertical-align: text-bottom;
+} */
+/* img{
+    vertical-align: text-left;
+} */
+/* text indent */
+/* h1{
+    text-indent: 50px;
+    color: blue;
+  
+
+} */
+/* text shadow */
+/* h1{
+    text-shadow: 5px 5px 3px palegreen;
+
+} */
+/* first latter first line */
+/* first latter */
+/* p::first-letter{
+    background-color: aqua;
+} */
+/* first line */
+/* p::first-line{
+    background-color: aqua;
+} */
+/* styling link */
+/* a:link{
+    color: brown;
+}
+a:visited{ 
+    background-color: red;
+}
+a:text{
+    color: brown;
+} */
+/* responding to user */
+/* hover */
+/* input.shakir:hover{
+    background-color: blue;
+} */
+/* active */
+/* input.shakir:active{
+    background-color: aqua;
+} */
+/* focus */
+/* input.shakir:focus{
+    background-color: aqua;
+} */
+/* Attribute selector */
+/* 1 extencence atribute */
+/* h1[name]{
+    color: red;
+
+}
+/* equility */
+/* h1[test="hi"]{
+    color: red;
+} */
+
+
